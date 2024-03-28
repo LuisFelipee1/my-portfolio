@@ -1,0 +1,55 @@
+.btnAnimal {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  color: darkcyan;
+  cursor: pointer;
+  border: solid 1px black;
+  transition: 1s;
+}
+
+.btnAnimal:hover {
+  background-color: transparent;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  box-shadow: 5px 5px 5px white;
+  border-radius: 10px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.navBar button {
+  margin: 0 10px;
+}
+
+.divBtn {
+    padding: 15px;
+}
+
+@media only screen and (max-width: 200px) {
+  .btnAnimal {
+    width: 30px;
+    height: 15px;
+    padding: 5px;
+    font-size: xx-small;
+  }
+
+  .navBar {
+    width: 80px;
+  }
+
+  .divBtn {
+    padding: 0px;
+    width: 50px;
+  }
+
+  .divAll {
+    width: 50px;
+  }
+}

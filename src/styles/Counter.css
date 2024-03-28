@@ -1,0 +1,51 @@
+.link {
+  display: block;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+body {
+  background-color: #205145;
+  background: linear-gradient(
+    10deg,
+    #0b5863,
+    black
+  );
+}
+
+.imagem {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.button {
+  padding: 20px;
+}
+
+.lyric {
+  color: black;
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttons {
+  border: none;
+  padding: 0.8em 2.5em;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  background-color: black;
+  color: darkcyan;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: 1s;
+}
+
+.buttons:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
